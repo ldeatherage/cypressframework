@@ -14,7 +14,7 @@ cy.visit('https://www.flipkart.com/apple-iphone-13-blue-128-gb/p/itm6c601e0a58b3
 
 cy.get("LI[id='swatch-2-color']").click()
 
-cy.get("A[href='\\/apple-iphone-13-pink-512-gb\\/p\\/itm3762edcc79946\\?pid\\=MOBG6VF5AS6QUQWX\\&lid\\=LSTMOBG6VF5AS6QUQWXMKDSJL\\&marketplace\\=FLIPKART\\&sattr\\[\\]\\=color\\&sattr\\[\\]\\=storage\\&st\\=storage']").click()
+cy.get("A[class='_1fGeJ5\\ PP89tw']").click()
 
 cy.get("INPUT[placeholder='Enter\\ Delivery\\ Pincode']").type("686001")
 
