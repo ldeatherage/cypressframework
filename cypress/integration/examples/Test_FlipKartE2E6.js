@@ -9,11 +9,14 @@ cy.get("INPUT[title='Search\\ for\\ products\\,\\ brands\\ and\\ more']").type("
 
 cy.get("BUTTON[class='L0Z3Pu']").click()
 
-cy.get("A[data-img='https\\:\\/\\/rukminim1\\.flixcart\\.com\\/image\\/\\{\\@width\\}\\/\\{\\@height\\}\\/l0igvww0\\/mobile\\/r\\/q\\/m\\/-original-imagca5ajerqpfjy\\.jpeg\\?q\\=\\{\\@quality\\}']").click()
+cy.visit('https://www.flipkart.com/apple-iphone-13-blue-128-gb/p/itm6c601e0a58b3c?pid=MOBG6VF5SMXPNQHG&lid=LSTMOBG6VF5SMXPNQHGL5FN51&marketplace=FLIPKART&q=iphone+13&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=dccaf694-7f5c-41a7-9ddd-a51871c86f9f.MOBG6VF5SMXPNQHG.SEARCH&ppt=hp&ppn=homepage&ssid=csoxh6p3280000001651234110712&qH=c68a3b83214bb235')
+
+
+cy.get("LI[id='swatch-0-color']").click()
 
 cy.get("A[class='_1fGeJ5\\ PP89tw']").click()
 
-cy.visit('https://www.flipkart.com/adidas-fluo-m-running-shoes-men/p/itm4799b8a41a1a7?pid=SHOFUN8JHKXHJZMD&lid=LSTSHOFUN8JHKXHJZMDIX8YK6&marketplace=FLIPKART&q=adidas+shoes&store=osp%2Fcil%2F1cu&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=en_iKtxByERBMz632F8U2eOaW0iY0aE%2FQ99gdCYWX03nRjc0Iog06Erd%2B1ggGh8NmdJ%2B6oscbj2Hf32VM%2B8M1C6UA%3D%3D&ppt=sp&ppn=sp&ssid=x20xowr0u80000001651046114302&qH=09d26a302946ebcb')
+cy.get("INPUT[placeholder='Enter\\ Delivery\\ Pincode']").type("686001")
 
 cy.get("BUTTON[class='_2KpZ6l\\ _2U9uOA\\ _3v1-ww\\ el-selection']").click()
 

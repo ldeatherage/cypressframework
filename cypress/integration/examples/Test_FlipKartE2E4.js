@@ -9,9 +9,7 @@ cy.get("INPUT[title='Search\\ for\\ products\\,\\ brands\\ and\\ more']").type("
 
 cy.get("BUTTON[class='L0Z3Pu']").click()
 
-cy.get("A[title='Carrot\\ 500\\ g']").click()
-
-cy.visit('https://www.flipkart.com/adidas-fluo-m-running-shoes-men/p/itm4799b8a41a1a7?pid=SHOFUN8JHKXHJZMD&lid=LSTSHOFUN8JHKXHJZMDIX8YK6&marketplace=FLIPKART&q=adidas+shoes&store=osp%2Fcil%2F1cu&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=en_iKtxByERBMz632F8U2eOaW0iY0aE%2FQ99gdCYWX03nRjc0Iog06Erd%2B1ggGh8NmdJ%2B6oscbj2Hf32VM%2B8M1C6UA%3D%3D&ppt=sp&ppn=sp&ssid=x20xowr0u80000001651046114302&qH=09d26a302946ebcb')
+cy.visit('https://www.flipkart.com/carrot-250-g/p/itmdddc23dbfe70c?pid=VEGFF2S8XYN8CHQA&lid=LSTVEGFF2S8XYN8CHQAB8EOW0&marketplace=FLIPKART&q=carrots&store=eat%2Flmt%2Fzhh&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=5512522e-66d8-46f8-9b42-c172fad5a0a4.VEGFF2S8XYN8CHQA.SEARCH&ppt=sp&ppn=sp&qH=186a8b72fe696268')
 
 cy.get("BUTTON[class='_2KpZ6l\\ _2U9uOA\\ _3v1-ww\\ el-selection']").click()
 

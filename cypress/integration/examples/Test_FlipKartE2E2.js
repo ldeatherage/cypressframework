@@ -5,13 +5,15 @@ describe("Test", function() {
  	
  	cy.visit('https://www.flipkart.com/')
 
-cy.get("INPUT[title='Search\\ for\\ products\\,\\ brands\\ and\\ more']").type("Carrot")
+cy.get("INPUT[title='Search\\ for\\ products\\,\\ brands\\ and\\ more']").type("adidas shoes")
 
 cy.get("BUTTON[class='L0Z3Pu']").click()
 
-cy.get("A[title='Carrot\\ 1\\ kg']").click()
+cy.visit('https://www.flipkart.com/adidas-classigy-m-running-shoes-men/p/itm24819973c7adf?pid=SHOG9XNYRSUMRVKP&lid=LSTSHOG9XNYRSUMRVKPWLBTYP&marketplace=FLIPKART&q=adidas+shoes&store=osp&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=3f495a4f-b064-42c6-b857-85e09f44786e.SHOG9XNYRSUMRVKP.SEARCH&ppt=sp&ppn=sp&qH=09d26a302946ebcb')
 
-cy.visit('https://www.flipkart.com/adidas-fluo-m-running-shoes-men/p/itm4799b8a41a1a7?pid=SHOFUN8JHKXHJZMD&lid=LSTSHOFUN8JHKXHJZMDIX8YK6&marketplace=FLIPKART&q=adidas+shoes&store=osp%2Fcil%2F1cu&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=en_iKtxByERBMz632F8U2eOaW0iY0aE%2FQ99gdCYWX03nRjc0Iog06Erd%2B1ggGh8NmdJ%2B6oscbj2Hf32VM%2B8M1C6UA%3D%3D&ppt=sp&ppn=sp&ssid=x20xowr0u80000001651046114302&qH=09d26a302946ebcb')
+cy.get("A[data-img='http\\:\\/\\/rukmini1\\.flixcart\\.com\\/image\\/\\{\\@width\\}\\/\\{\\@height\\}\\/l12h1u80\\/shoe\\/z\\/c\\/b\\/7-ga1052-7-adidas-gresix-ftwwht-orarus-original-imagcpvgmtxa3kvf\\.jpeg\\?q\\=\\{\\@quality\\}']").click()
+
+cy.get("A[href='\\/adidas-classigy-m-running-shoes-men\\/p\\/itm24819973c7adf\\?pid\\=SHOG9XNYZWXPGARE\\&lid\\=LSTSHOG9XNYZWXPGAREEMS9GX\\&marketplace\\=FLIPKART\\&sattr\\[\\]\\=color\\&sattr\\[\\]\\=size\\&st\\=size']").click()
 
 cy.get("BUTTON[class='_2KpZ6l\\ _2U9uOA\\ _3v1-ww\\ el-selection']").click()
 
