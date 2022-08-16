@@ -14,15 +14,13 @@ cy.visit('https://www.flipkart.com/apple-iphone-13-blue-128-gb/p/itm6c601e0a58b3
 
 cy.get("LI[id='swatch-2-color']").click()
 
-cy.get("A[href='\\/apple-iphone-13-pink-256-gb\\/p\\/itmc5ee8ec6cd737\\?pid\\=MOBG6VF5XAMZ2FKX\\&lid\\=LSTMOBG6VF5XAMZ2FKX7ZANWJ\\&marketplace\\=FLIPKART\\&sattr\\[\\]\\=color\\&sattr\\[\\]\\=storage\\&st\\=storage']").click()
+cy.get("A[class='_1fGeJ5\\ PP89tw']").click()
 
 cy.get("INPUT[placeholder='Enter\\ Delivery\\ Pincode']").type("686001")
 
 cy.get("BUTTON[class='_2KpZ6l\\ _2U9uOA\\ _3v1-ww\\ el-selection']").click()
 
 cy.visit('https://www.flipkart.com/viewcart?otracker=PP_GoToCart')
-
-cy.get("BUTTON[class='_23FHuj\\ el-selection']").click()
 
    })
 })
