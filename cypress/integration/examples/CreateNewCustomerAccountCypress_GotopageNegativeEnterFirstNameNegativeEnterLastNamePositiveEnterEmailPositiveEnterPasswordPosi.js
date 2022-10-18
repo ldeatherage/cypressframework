@@ -11,9 +11,9 @@ cy.get("INPUT[id='lastname']").type("")
 
 cy.get("INPUT[id='email_address']").type("huw.price@outlook.com")
 
-cy.get("INPUT[id='password']").type("taRm9ZMx8h")
+cy.get("INPUT[id='password']").type("PGWfHSzu56")
 
-cy.get("INPUT[name='password_confirmation']").type("taRm9ZMx8h")
+cy.get("INPUT[name='password_confirmation']").type("PGWfHSzu56")
 
 cy.get("BUTTON[title='Create\\ an\\ Account']").click()
 

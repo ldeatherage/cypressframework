@@ -7,7 +7,7 @@ describe("Create_New_Customer_Account_Cypress", function() {
 
 cy.get("INPUT[id='firstname']").type("")
 
-cy.get("INPUT[id='lastname']").type("Weimann")
+cy.get("INPUT[id='lastname']").type("Haag")
 
 cy.get("INPUT[id='email_address']").type("huw.price@outlook.com")
 
