@@ -1,15 +1,13 @@
 
 
 describe("Create_New_Customer_Account_Cypress", function() {
-   it("GotopagePositiveEnterFirstNamePositiveEnterLastNamePositiveEnterEmailNegativeEnterPasswordNega", function() {
+   it("GotopageNegativeEnterFirstNameNegativeEnterEmailNegativeEnterPasswordPositiveEnterConfirmPasswo", function() {
  	
  	cy.visit('https://magento.nublue.co.uk/customer/account/create/')
 
-cy.get("INPUT[id='firstname']").type("Roberto")
+cy.get("INPUT[id='firstname']").type("")
 
-cy.get("INPUT[id='lastname']").type("Boyle")
-
-cy.get("INPUT[id='email_address']").type("huw.price@outlook.com")
+cy.get("INPUT[id='email_address']").type("huw.price")
 
 cy.get("INPUT[id='password']").type("#!_ @")
 
